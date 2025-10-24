@@ -20,7 +20,7 @@ def load_ocr_reader():
         ["en"],
         gpu=False,
         download_enabled=True,
-        model_storage_directory=Path.home() / ".cache" / "Easyocr"
+        model_storage_directory=Path.home() / ".cache" / "tz-script"
     )
 
 
