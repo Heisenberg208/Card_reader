@@ -1,0 +1,407 @@
+[
+  {
+    "name": null,
+    "email": "library@dscdsedu.in",
+    "phone": "+91-98804-53085",
+    "company": "Dayananda Sagar College of Dental Sciences",
+    "address": "Shavige Malleshwara Hills, Kumaraswamy Layout, Bengaluru-560111",
+    "job_title": "Librarian",
+    "website": "www.dscds.edu.in",
+    "timestamp": "2025-06-27T19:45:10.729213"
+  },
+  {
+    "name": null,
+    "email": "kayacnterprises69@gmail.com, kayasfotogallery@gmail.com",
+    "phone": null,
+    "company": "Kaya Enterprises",
+    "address": "#38/51, Ekangipuram Main Street, Ayanavaram, chennai - 600 023, Tamilnadu, India",
+    "job_title": null,
+    "website": null,
+    "timestamp": "2025-06-27T20:02:33.940562"
+  },
+  {
+    "name": "John Doe",
+    "title": "Software Engineer",
+    "company": "Tech Corp",
+    "email": "john.doe@techcorp.com",
+    "phone": "+1-555-0123",
+    "address": "123 Tech Street, Silicon Valley, CA 94000",
+    "timestamp": "2025-07-31T14:28:34.797472"
+  },
+  {
+    "name": "John Doe",
+    "title": "Software Engineer",
+    "company": "Tech Corp",
+    "email": "john.doe@techcorp.com",
+    "phone": "+1-555-0123",
+    "address": "123 Tech Street, Silicon Valley, CA 94000",
+    "timestamp": "2025-07-31T14:41:10.232023"
+  },
+  {
+    "name": "John Doe",
+    "title": "Software Engineer",
+    "company": "Tech Corp",
+    "email": "john.doe@techcorp.com",
+    "phone": "+1-555-0123",
+    "address": "123 Tech Street, Silicon Valley, CA 94000",
+    "timestamp": "2025-07-31T14:41:16.041423"
+  },
+  {
+    "name": "Sharat Kanthi",
+    "email": "sharatcackudthatcom",
+    "phone": "4919611220772",
+    "company": null,
+    "address": null,
+    "job_title": "Business Unit Head - Azure & AI",
+    "website": null,
+    "timestamp": "2025-07-31T14:58:10.996945"
+  },
+  {
+    "name": null,
+    "email": "kayacnterprises69@gmail.com, kayasfotogallery@gmail.com",
+    "phone": null,
+    "company": "Kaya Enterprises",
+    "address": "#38/51, Ekangipuram Main Street, Ayanavaram, chennai - 600 023, Tamilnadu, India",
+    "job_title": null,
+    "website": null,
+    "timestamp": "2025-07-31T15:03:23.020380"
+  },
+  {
+    "name": null,
+    "email": "library@dscdsedu.in",
+    "phone": "+91-98804-53085",
+    "company": "Dayananda Sagar College of Dental Sciences",
+    "address": "Shavige Malleshwara Hills, Kumaraswamy Layout, Bengaluru-560111",
+    "job_title": "Librarian",
+    "website": "www.dscds.edu.in",
+    "timestamp": "2025-07-31T15:04:21.311164"
+  },
+  {
+    "name": null,
+    "email": "kayacnterprises69@gmail.com, kayasfotogallery@gmail.com",
+    "phone": null,
+    "company": "Kaya Enterprises",
+    "address": "#38/51, Ekangipuram Main Street, Ayanavaram, chennai - 600 023, Tamilnadu, India",
+    "job_title": null,
+    "website": null,
+    "timestamp": "2025-07-31T21:58:18.347083"
+  },
+  {
+    "error": "module 'google.genai' has no attribute 'GenerativeModel'",
+    "name": null,
+    "email": null,
+    "phone": null,
+    "company": null,
+    "address": null,
+    "job_title": null,
+    "website": null,
+    "timestamp": "2025-08-08T19:21:47.630917"
+  },
+  {
+    "error": "'Client' object has no attribute 'get_model'",
+    "name": null,
+    "email": null,
+    "phone": null,
+    "company": null,
+    "address": null,
+    "job_title": null,
+    "website": null,
+    "timestamp": "2025-08-08T19:27:35.417135"
+  },
+  {
+    "error": "'Client' object has no attribute 'generate_content'",
+    "name": null,
+    "email": null,
+    "phone": null,
+    "company": null,
+    "address": null,
+    "job_title": null,
+    "website": null,
+    "timestamp": "2025-08-08T19:44:16.491186"
+  },
+  {
+    "error": "Models.get() takes 1 positional argument but 2 were given",
+    "name": null,
+    "email": null,
+    "phone": null,
+    "company": null,
+    "address": null,
+    "job_title": null,
+    "website": null,
+    "timestamp": "2025-08-08T19:45:57.402819"
+  },
+  {
+    "error": "Models.get() got an unexpected keyword argument 'name'",
+    "name": null,
+    "email": null,
+    "phone": null,
+    "company": null,
+    "address": null,
+    "job_title": null,
+    "website": null,
+    "timestamp": "2025-08-08T19:46:59.970238"
+  },
+  {
+    "error": "'Client' object has no attribute 'get_model'",
+    "name": null,
+    "email": null,
+    "phone": null,
+    "company": null,
+    "address": null,
+    "job_title": null,
+    "website": null,
+    "timestamp": "2025-08-08T19:48:47.220535"
+  },
+  {
+    "error": "'Client' object has no attribute 'get_model'",
+    "name": null,
+    "email": null,
+    "phone": null,
+    "company": null,
+    "address": null,
+    "job_title": null,
+    "website": null,
+    "timestamp": "2025-08-08T19:53:17.561804"
+  },
+  {
+    "error": "Models.generate_content() got an unexpected keyword argument 'response_format'",
+    "name": null,
+    "email": null,
+    "phone": null,
+    "company": null,
+    "address": null,
+    "job_title": null,
+    "website": null,
+    "timestamp": "2025-08-08T19:54:02.204296"
+  },
+  {
+    "error": "'NoneType' object has no attribute 'strip'",
+    "name": null,
+    "email": null,
+    "phone": null,
+    "company": null,
+    "address": null,
+    "job_title": null,
+    "website": null,
+    "timestamp": "2025-08-08T19:56:00.973477"
+  },
+  {
+    "error": "'NoneType' object is not subscriptable",
+    "name": null,
+    "email": null,
+    "phone": null,
+    "company": null,
+    "address": null,
+    "job_title": null,
+    "website": null,
+    "timestamp": "2025-08-08T19:57:37.792637"
+  },
+  {
+    "error": "'NoneType' object has no attribute 'strip'",
+    "name": null,
+    "email": null,
+    "phone": null,
+    "company": null,
+    "address": null,
+    "job_title": null,
+    "website": null,
+    "timestamp": "2025-08-08T19:58:51.465443"
+  },
+  {
+    "error": "'NoneType' object has no attribute 'strip'",
+    "name": null,
+    "email": null,
+    "phone": null,
+    "company": null,
+    "address": null,
+    "job_title": null,
+    "website": null,
+    "timestamp": "2025-08-08T20:56:00.356695"
+  },
+  {
+    "name": "Himanshu Pahwa",
+    "email": "booking@tripstring com",
+    "phone": "91-9999807938",
+    "company": "TRIPSTRING DMC",
+    "address": "Gupta Colony; Khirki\nANo\n1654/3\nAnjuno; Anthony",
+    "job_title": "B2B Sales Director",
+    "website": null,
+    "timestamp": "2025-08-08T21:03:17.426561"
+  },
+  {
+    "name": "Sartaj Ahmad",
+    "email": null,
+    "phone": "9596444888",
+    "company": "SNOW LAND Hotel & Resorts",
+    "address": "Jek-190001",
+    "job_title": "General Manager",
+    "website": null,
+    "timestamp": "2025-08-08T22:14:02.672788"
+  },
+  {
+    "name": "Himanshu Pahwa",
+    "email": "booking@tripstring com",
+    "phone": "91-9999807938",
+    "company": "TRIPSTRING DMC",
+    "address": "Gupta Colony; Khirki\nANo\n1654/3\nAnjuno; Anthony",
+    "job_title": "B2B Sales Director",
+    "website": null,
+    "timestamp": "2025-08-08T22:27:43.177357"
+  },
+  {
+    "name": "Himanshu Pahwa",
+    "email": "booking@tripstring com",
+    "phone": "+91-9999807938",
+    "company": "TRIPSTRING DMC",
+    "address": "Gupta Colony; Khirki\nDelhi 110017\nGod\nOffice\nWaddo;\nAnjund;\nAnthony\nChurch; Vagator; God 403509",
+    "job_title": "B2B Sales Director",
+    "website": "www tripstring com",
+    "timestamp": "2025-08-13T12:23:52.732274"
+  },
+  {
+    "name": "Himanshu Pahwa",
+    "email": "booking@tripstring com",
+    "phone": "+91-9999807938",
+    "company": "TRIPSTRING DMC",
+    "address": "Gupta Colony; Khirki\nDelhi 110017\nGod\nOffice\nWaddo;\nAnjund;\nAnthony\nChurch; Vagator; God 403509",
+    "job_title": "B2B Sales Director",
+    "website": "www tripstring com",
+    "timestamp": "2025-09-04T00:14:26.533238"
+  },
+  {
+    "name": null,
+    "email": "library@dscdsedu.in",
+    "phone": "98804 53085",
+    "company": "Dayananda Sagar College of Dental Sciences",
+    "address": "Shavige Malleshwara Hills, Kumaraswamy Layout; Bengaluru-560111",
+    "job_title": "Librarian",
+    "website": "WWWdscds edu.in",
+    "timestamp": "2025-09-05T21:11:01.418147"
+  },
+  {
+    "name": [
+      "Himanshu Pahwa"
+    ],
+    "email": [
+      "booking@tripstring.com",
+      "booking@tripstring com"
+    ],
+    "phone": [
+      "+919999807938",
+      "+918448875965"
+    ],
+    "company": "TRIPSTRING",
+    "address": "JE 35 A, Gupta Colony; Khirki\nExtension, Malviya  Nagar\nNew\nDelhi;\nDelhi 110017\nGoa\nOffice\n1654/3\nDeul\nWaddo,\nAnjuna,\nopp\nAnthony\nChurch, Vagator, Goa 403509",
+    "job_title": "B2B Sales Director",
+    "website": [
+      "https://www.tripstring.com"
+    ],
+    "timestamp": "2025-09-13T18:00:58.237892"
+  },
+  {
+    "name": [
+      "Himanshu Pahwa"
+    ],
+    "email": [
+      "booking@tripstring.com",
+      "booking@tripstring com"
+    ],
+    "phone": [
+      "+919999807938",
+      "8448875965",
+      "9654133611"
+    ],
+    "company": "TRIPSTRING",
+    "address": [
+      "JE 35 A, Gupta Colony; Khirki New Delhi; Delhi 110017",
+      "HNo; 1 Deul Waddo, Anjuna; St Anthony"
+    ],
+    "job_title": "BZB Sales Director",
+    "website": [
+      "https://www.tripstring.com"
+    ],
+    "timestamp": "2025-09-19T19:14:16.406518"
+  },
+  {
+    "name": [
+      "Sartaj Ahmad"
+    ],
+    "email": [
+      "gm@snowlandhotels.com"
+    ],
+    "phone": [
+      "+919596444888",
+      "+919906000194",
+      "01942501718",
+      "01942501716"
+    ],
+    "company": "SNOW LAND Hotel & Resorts",
+    "address": "Srinagar Jek-190001",
+    "job_title": "General Manager",
+    "website": [
+      "https://www.snowlandhotelsandresorts.com"
+    ],
+    "timestamp": "2025-09-20T00:36:09.725531"
+  },
+  {
+    "name": [
+      "Dhruv H. Shah"
+    ],
+    "email": [
+      "shahdhruv22@hotmail.com"
+    ],
+    "phone": [
+      "+919767717000",
+      "+918412012007"
+    ],
+    "company": "Nandlal Co. Society",
+    "address": "Shop 4 & 6, Nandlal Co. Society 418, Narayan Peth, Shagun Chowk, Off Laxmi Road, Pune 411030, in Op.",
+    "job_title": [],
+    "website": [],
+    "timestamp": "2025-10-16T00:54:46.089888"
+  },
+  {
+    "name": [
+      "Himanshu Pahwa"
+    ],
+    "email": [
+      "booking@tripstring.com",
+      "booking@tripstring com"
+    ],
+    "phone": [
+      "+919999807938",
+      "+918448875965",
+      "+919654133611"
+    ],
+    "company": "TRIPSTRING",
+    "address": [
+      "JE 35 A, Gupta Colony; Khirki New Delhi; Delhi 110017",
+      "HNo; 1 Deul Waddo, Anjuna; St Anthony"
+    ],
+    "job_title": "BZB Sales Director",
+    "website": [
+      "https://www.tripstring.com"
+    ],
+    "timestamp": "2025-10-24T20:24:19.473998"
+  },
+  {
+    "name": [
+      "Raju"
+    ],
+    "email": [
+      "info@sigmainteriorgraphicscom"
+    ],
+    "phone": [
+      "+918861878694",
+      "+918861878693",
+      "+918861878691"
+    ],
+    "company": "Sigma Interiors and Graphics",
+    "address": "144, Near Anjaneya Swami temple,\nBhoganhalll; Bangalore 560103",
+    "job_title": [],
+    "website": [
+      "https://www.sigmainteriorgraphics.com"
+    ],
+    "timestamp": "2025-10-24T23:18:23.603189"
+  }
+]
