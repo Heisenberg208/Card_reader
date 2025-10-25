@@ -44,10 +44,29 @@ def resize_image(img, max_dim=1600):
 
 
 def preprocess_image(image):
-    """Preprocess image for better OCR performance"""
+    """Preprocess PIL image for better OCR performance"""
+    
+    # Convert PIL image to NumPy array (OpenCV format)
     img_array = np.array(image)
-    # img_array = resize_image(img_array)
-    gray = cv2.cvtColor(img_array, cv2.COLOR_RGB2GRAY)
+
+    # Handle different channel formats
+    if img_array.ndim == 2:
+        # Already grayscale
+        gray = img_array
+    elif img_array.shape[2] == 4:
+        # RGBA → convert to BGR
+        img_array = cv2.cvtColor(img_array, cv2.COLOR_RGBA2BGR)
+        gray = cv2.cvtColor(img_array, cv2.COLOR_BGR2GRAY)
+    elif img_array.shape[2] == 3:
+        # RGB → convert to BGR → grayscale
+        img_array = cv2.cvtColor(img_array, cv2.COLOR_RGB2BGR)
+        gray = cv2.cvtColor(img_array, cv2.COLOR_BGR2GRAY)
+    else:
+        raise ValueError(f"Unsupported number of channels: {img_array.shape[2]}")
+
+    # Resize for OCR
+    gray = resize_image(gray)  # gray is single channel now
+
     return gray
 
 

@@ -9,6 +9,7 @@ from pathlib import Path
 from utils.logger import logThis
 import streamlit as st
 from ocr_processor import (
+    preprocess_image,
     resize_image,
     load_ocr_reader,
     process_ocr_to_json,
@@ -220,7 +221,7 @@ def handle_processing_section(image, reader):
     if st.button("🔍 Extract & Process to JSON", type="primary", width="stretch"):
         with st.spinner("Extracting text and processing with AI..."):
             try:
-                image=resize_image(image)
+                image=preprocess_image(image)
                 json_result, extracted_text = process_ocr_to_json(
                     image, reader, gemini_key
                 )
@@ -388,3 +389,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+#streamlit run card_reader\card_reader_ui.py
