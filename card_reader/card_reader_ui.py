@@ -326,11 +326,19 @@ def main():
 
     # Load OCR reader
     with st.spinner("Please wait while warming up!"):
-        reader = load_ocr_reader()
-    if reader:
-        logThis.info("Reader loaded")
-    else:
-        logThis.info("Reader not loaded")
+        try:
+            reader = load_ocr_reader()
+            if reader:
+                logThis.info("Reader loaded successfully ✅")
+                st.success("OCR model ready to use!")
+            else:
+                logThis.warning("Reader returned None ⚠️")
+                st.warning("OCR reader failed to initialize.")
+        except Exception as e:
+            reader = None
+            err_msg = f"OCR Reader initialization failed: {e}"
+            logThis.error(err_msg)
+            st.error("❌ Failed to load OCR reader. Check logs for details.")
 
     # Initialize main variables
     uploaded_image = None
