@@ -4,9 +4,12 @@ import os
 import sys
 from datetime import datetime
 from pathlib import Path
+
+
 from utils.logger import logThis
 import streamlit as st
 from ocr_processor import (
+    resize_image,
     load_ocr_reader,
     process_ocr_to_json,
     save_to_json,
@@ -217,6 +220,7 @@ def handle_processing_section(image, reader):
     if st.button("🔍 Extract & Process to JSON", type="primary", width="stretch"):
         with st.spinner("Extracting text and processing with AI..."):
             try:
+                image=resize_image(image)
                 json_result, extracted_text = process_ocr_to_json(
                     image, reader, gemini_key
                 )
