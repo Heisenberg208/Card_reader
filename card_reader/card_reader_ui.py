@@ -327,6 +327,10 @@ def main():
     # Load OCR reader
     with st.spinner("Please wait while warming up!"):
         reader = load_ocr_reader()
+    if reader:
+        logThis.info("Reader loaded")
+    else:
+        logThis.info("Reader not loaded")
 
     # Initialize main variables
     uploaded_image = None
