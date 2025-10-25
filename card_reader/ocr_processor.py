@@ -17,14 +17,10 @@ from utils.constants import RESULTS_FILE
 def load_ocr_reader():
     """Load and cache EasyOCR reader safely for Streamlit Cloud"""
     try:
-        # Use repo-level directory for models
-        model_dir = os.path.join(os.path.dirname(__file__), "models", "easyocr")
-        os.makedirs(model_dir, exist_ok=True)
 
         reader = easyocr.Reader(
             ["en"],
             gpu=False,
-            model_storage_directory=model_dir,
             download_enabled=True  # Don't attempt network download
         )
         return reader
