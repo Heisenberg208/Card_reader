@@ -19,7 +19,6 @@ def load_ocr_reader():
     return easyocr.Reader(
         ["en"],
         gpu=False,
-        model_storage_directory=Path.home() / ".cache" / "easyocr"
     )
 
 
