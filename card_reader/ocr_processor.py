@@ -72,15 +72,14 @@ def extract_text_from_image(image, reader):
     results = reader.readtext(
         processed_img,
         detail=1,
-        paragraph=False,
+        paragraph=True,
         width_ths=0.7,
         height_ths=0.7,
         batch_size=1,
     )
-
     extracted_text = "\n".join(
-        text for _, text, confidence in results if confidence > 0.5
-    )
+    [r[1] if len(r) > 1 else str(r) for r in results]
+)
     return extracted_text.strip() if extracted_text else ""
 
 
